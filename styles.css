@@ -1,0 +1,55 @@
+h1, h2, p:not(.footer){
+    text-align:center;
+  }
+  
+  h1, h2, .bold{
+    font-family:bookman, "bodoni mt";
+  }
+  
+  body{
+    padding:10px 60px;
+    font-family:verdana, "segoe ui";
+    background-color:#e0e0d1;
+  }
+  
+  #image{
+    display:block;
+    margin:2px auto;
+    max-height:500px;
+    max-width:100%;
+    border-radius:10px;
+  }
+  
+  figure{
+    border:1px solid grey;
+    text-align:center;
+    padding:5px;
+    background-color:grey;
+    margin:50px auto;
+  }
+  
+  .bold{
+    font-weight:1000;
+  }
+  
+  ul>li{
+    margin:15px;
+  }
+  
+  .italic{
+    font-style:italic;
+  }
+  
+  #date{
+    margin-bottom:30px;
+    font-style:oblique;
+  }
+  
+  a{
+    text-decoration:none;
+    color:inherit;
+  }
+  
+  .footer:not(.base){
+    margin:auto 15%;
+  }
