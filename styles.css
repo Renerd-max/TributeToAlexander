@@ -46,7 +46,7 @@ h1, h2, p:not(.footer){
   }
   
   a{
-    text-decoration:none;
+    text-decoration: underline wavy grey 0.5px;
     color:inherit;
   }
   
