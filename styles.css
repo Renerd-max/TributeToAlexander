@@ -35,6 +35,18 @@ h1, h2, p:not(.footer){
   ul>li{
     margin:15px;
   }
+
+  footer{
+    background-color:rgb(41, 40, 40);
+    position:absolute;
+    margin-top:20px;
+    bottom:-1;
+    left:0;
+    padding:15px;
+    color:whitesmoke;
+    text-align: center;
+    font-style:italic;
+  }
   
   .italic{
     font-style:italic;
